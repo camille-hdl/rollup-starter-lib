@@ -5,7 +5,9 @@
   "module": "dist/how-long-till-lunch.esm.js",
   "browser": "dist/how-long-till-lunch.umd.js",
   "dependencies": {
-    "ms": "^2.0.0"
+    "mapbox-gl": "^1.4.1",
+    "ms": "^2.0.0",
+    "react-mapbox-gl": "^4.7.2"
   },
   "devDependencies": {
     "rollup": "^1.20.0",

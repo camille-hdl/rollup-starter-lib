@@ -1,6 +1,11 @@
 import ms from 'ms';
 import lunchtime from './lunchtime.js';
 import millisecondsUntil from './millisecondsUntil.js';
+import ReactMapboxGL from "react-mapbox-gl";
+
+const Map = ReactMapboxGL({
+	accessToken: "123123"
+});
 
 export default function howLongUntilLunch(hours, minutes) {
 	// lunch is at 12.30
